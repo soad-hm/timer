@@ -1,0 +1,62 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #b8afce,
+        #83bbd8
+    );
+}
+.clock{
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.o{
+    margin-top: 100px;
+    margin-left: 650px;
+    display: flex;
+    position: absolute;
+    font-size: 100px;
+}
+.clock div{
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 60px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 60px;
+    color: #ffffff;
+}
+.email{
+    
+    margin-left: 490px;
+    margin-top: 600px;
+    display:flex;
+    justify-content:center;
+    position: absolute;
+    
+  }
